@@ -14,9 +14,10 @@ Algorithm class project
 
 ### Functions
 * [FR] Importer les données depuis les fichiers source .txt
+* [FR] Implémenter et afficher le graphe correspondant aux données avec networkx
 
 ### Classes
 [...]
 
 ### ToDo
-* [FR] Implementer et afficher le graphe correspondant aux données avec networkx
+* [FR] Implémenter les fourmis
