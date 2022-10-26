@@ -32,3 +32,15 @@ def import_data(file_name):
 
 
     return(ant_nb, node_nb, node_list, edge_nb, edge_list)
+
+
+def name_to_index(node_list,edge_list):
+    
+    edge_list_index = []
+
+    for edge in edge_list:
+
+        edge = edge.split(' - ')
+        edge_list_index.append((node_list.index(edge[0]), node_list.index(edge[1])))
+
+    return edge_list_index
