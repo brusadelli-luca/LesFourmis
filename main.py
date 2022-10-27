@@ -14,4 +14,10 @@ file_name = anthills_names[anthill]
 
 param = import_data(file_name)
 
-graph(param[2], param[4])
+ant_nb = param[0]
+node_nb = param[1]
+node_list = param[2]
+edge_nb = param[3]
+edge_list = param[4]
+
+graph(node_list, edge_list)
