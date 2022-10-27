@@ -5,7 +5,11 @@ import matplotlib.pyplot as plt
 def graph(node_list,edge_list):
     chemin = nx.Graph()
     
-    chemin.add_nodes_from(node_list)
+    
+    if node_list is [0] and node_list[-1]:
+        chemin.add_nodes_from(node_list, fourmis = 10)
+    else :
+        chemin.add_nodes_from(node_list, fourmis = 1)
 
     chemin.add_edges_from(edge_list)
     """
