@@ -20,4 +20,4 @@ node_list = param[2]
 edge_nb = param[3]
 edge_list = param[4]
 
-graph(node_list, edge_list)
+graph(ant_nb, node_list, edge_list)
