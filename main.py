@@ -1,7 +1,7 @@
 from functions import *
 from graph import *
 
-anthill = 1
+anthill = 3
 
 anthills_names = {1 : '../Fourmilieres/fourmiliere_un.txt', \
                     2 : '../Fourmilieres/fourmiliere_deux.txt', \
@@ -20,4 +20,4 @@ node_list = param[2]
 edge_nb = param[3]
 edge_list = param[4]
 
-graph(node_list, edge_list)
+graph(ant_nb, node_list, edge_list)
