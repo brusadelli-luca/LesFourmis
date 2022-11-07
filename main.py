@@ -1,7 +1,7 @@
 from functions import *
 from graph import *
 
-anthill = 1
+anthill = 3
 
 anthills_names = {1 : '../Fourmilieres/fourmiliere_un.txt', \
                     2 : '../Fourmilieres/fourmiliere_deux.txt', \
