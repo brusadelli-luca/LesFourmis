@@ -3,7 +3,7 @@
 Algorithm class project
 
 ## Goal of the project
-[...]
+Make all ants to reach end node in minimun steps
 
 ## Skills
 * adjacency matrix
@@ -13,11 +13,11 @@ Algorithm class project
 ## Features
 
 ### Functions
-* [FR] Importer les données depuis les fichiers source .txt
-* [FR] Implémenter et afficher le graphe correspondant aux données avec networkx
+* 
+* 
 
 ### Classes
-[...]
+
 
 ### ToDo
-* [FR] Implémenter les fourmis
+* 
